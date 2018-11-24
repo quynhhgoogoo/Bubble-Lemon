@@ -10,7 +10,7 @@ var bubbleImg;
 var bmoImg;
 
 function preload() {
-    bubbleImg = loadImage('img/bubble.png');
+    bubbleImg = loadImage('img/lemon.png');
     bmoImg = loadImage('img/bmo.jpg');
 
     bgSound = loadSound('sound/gum.mp3');
@@ -32,7 +32,7 @@ function setup() {
 }
 
 function draw() {
-    background('#CAA3FF');
+    background('#b2b200');
     drawScore();
 
     var vol = mic.getLevel();
@@ -62,7 +62,7 @@ function draw() {
         obstacles.push(new Obstacle(bmoImg));
     }
 
-    if (vol > 0.2) {
+    if (vol > 0.5) {
         bubble.up();
     }
 
@@ -79,7 +79,7 @@ function keyPressed() {
 }
 
 function drawScore() {
-    textSize(50);
+    textSize(30);
     noStroke();
     fill(255);
     text("Distance : " + score, width / 2, 50);
@@ -92,25 +92,26 @@ function endGame() {
     fill(255);
     noStroke();
 
-    textSize(100);
+    textSize(70);
     //text("Game Over", width / 2, height / 2);
 
     bgSound.stop();
     gameOverSound.play();
 
-    if (score <= 500) {
-        button = createImg('img/bubble.png');
+    if (score >= 500) {
+        button = createImg('img/button.png');
         //button.position(input.x + input.width, 65);
         button.mousePressed(refreshPage);
-        button.position(width / 2, height / 2);
+        button.position(width / 2.15, 1.1 * height / 2);
         text("Play Again", width / 2, height / 2);
         //  document.getElementById("playAgain").style.display = "block";
     } else {
-        button = createImg('img/bubble.png');
+        button = createImg('img/button.png');
         //button.position(input.x + input.width, 65);
         button.mousePressed(move);
-        button.position(width / 2, height / 2);
-        text("Continue", width / 2, height / 2);
+        button.position(width / 2.2, height / 2);
+        text("Next Game", width / 2, height / 2.2);
+        //  document.getElementById("move").style.display = "block";
     }
 }
 

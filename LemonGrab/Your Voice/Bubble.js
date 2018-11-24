@@ -3,7 +3,7 @@ function Bubble(x, y, rad) {
     this.y = height / 2;
 
     this.lift = -5;
-    this.gravity = 1;
+    this.gravity = 1.5;
     this.velocity = 0;
 
     /*this.show = function() {

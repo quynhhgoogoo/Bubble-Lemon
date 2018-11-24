@@ -2,12 +2,12 @@ var bgImg;
 var mySound;
 
 function preload() {
-    bgImg = loadImage('theme/candy.jpg');
+    bgImg = loadImage('theme/Lemon.png');
     mySound = loadSound('sound/trumpet.mp3');
 }
 
 function setup() {
-    bg = loadImage("theme/candy.jpg");
+    bg = loadImage("theme/Lemon.png");
     createCanvas(windowWidth, windowHeight);
     textAlign(CENTER);
 }

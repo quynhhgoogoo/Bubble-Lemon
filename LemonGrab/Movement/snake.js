@@ -9,7 +9,7 @@ const jake = new Image();
 jake.src = "img/jake.jpg";
 
 const finn = new Image();
-finn.src = "img/bubble.png";
+finn.src = "img/lemon.png";
 
 //Resize canvas
 // Start listening to resize events and draw canvas.
@@ -81,16 +81,16 @@ document.addEventListener("keydown", direction);
 
 function direction(event) {
     if (event.keyCode == 37 && d != "RIGHT") {
-        d = "LEFT";
+        d = "RIGHT";
         left.play();
     } else if (event.keyCode == 38 && d != "DOWN") {
-        d = "UP";
+        d = "DOWN";
         up.play();
     } else if (event.keyCode == 39 && d != "LEFT") {
-        d = "RIGHT";
+        d = "LEFT";
         right.play();
     } else if (event.keyCode == 40 && d != "UP") {
-        d = "DOWN";
+        d = "UP";
         down.play();
     }
 }
