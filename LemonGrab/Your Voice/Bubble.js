@@ -29,6 +29,10 @@ function Bubble(x, y, rad) {
             this.y = 0;
             this.velocity = 0;
         }
+        if (this.x > width - 100) {
+            this.x = width - 100;
+            this.velocity = 0;
+        }
     }
 
     this.draw = function() {
