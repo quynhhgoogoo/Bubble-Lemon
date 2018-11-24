@@ -161,7 +161,10 @@ function draw() {
         clearInterval(game);
         dead.play();
     }
-
+    if(score>5){
+        document.getElementById("move").style.display = "block";
+        clearInterval(game);
+    }
     snake.unshift(newHead);
 
     //Draw Score
