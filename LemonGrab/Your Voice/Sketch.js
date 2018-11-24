@@ -106,5 +106,5 @@ function refreshPage() {
 }
 
 function move(){
-    window.location.href='https://quynhhgoogoo.github.io/Bubble-Fire/LemonGrab/Pop It Out'
+    window.location.href='https://quynhhgoogoo.github.io/Bubble-Lemon/LemonGrab/Pop It Out/'
 }

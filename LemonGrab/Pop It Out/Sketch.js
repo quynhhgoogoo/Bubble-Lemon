@@ -105,20 +105,20 @@ function endGame() {
     noStroke();
 
     textSize(100);
-    text("Game Over", width / 2, height / 2);
+    //text("Game Over", width / 2, height / 2);
     if (score <= 5) {
         button = createImg('img/bmo.png');
         //button.position(input.x + input.width, 65);
         button.mousePressed(refreshPage);
         button.position(width / 2, height / 2);
-        //text("Game Over", width / 2, height / 2);
+        text("Game Over", width / 2, height / 2);
         //  document.getElementById("playAgain").style.display = "block";
     } else {
         button = createImg('img/bmo.png');
         //button.position(input.x + input.width, 65);
         button.mousePressed(move);
         button.position(width / 2, height / 2);
-        //text("Continue", width / 2, height / 2);
+        text("Continue", width / 2, height / 2);
         //  document.getElementById("move").style.display = "block";
     }
 }
@@ -128,7 +128,7 @@ function refreshPage() {
 }
 
 function move() {
-    window.location.href = 'https://quynhhgoogoo.github.io/Bubble-Lemon/LemonGrab/Your Voice/'
+    window.location.href = 'https://quynhhgoogoo.github.io/Bubble-Lemon/LemonGrab/Movement/'
 }
 /*function randomCol() {
     return color(random(255), random(255), random(255));

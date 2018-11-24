@@ -128,5 +128,5 @@ function refreshPage() {
 }
 
 function move() {
-    window.location.href = 'https://quynhhgoogoo.github.io/Bubble-Lemon/Bubble/Your Voice'
+    window.location.href = 'https://quynhhgoogoo.github.io/Bubble-Lemon/Bubble/Movement'
 }
