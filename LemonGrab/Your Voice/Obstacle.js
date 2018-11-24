@@ -17,10 +17,10 @@
           return false;
       }
 
-      this.show = function() {
+      /*this.show = function() {
           fill(255);
           rect(this.x, height - this.top, this.w, this.top);
-      }
+      }*/
 
       this.update = function() {
           this.x -= this.speed;
@@ -35,5 +35,8 @@
           }
       }
 
+      this.draw = function() {
+          image(bmoImg, this.x, 300);
+      }
 
   }

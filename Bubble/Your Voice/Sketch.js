@@ -79,7 +79,7 @@ function keyPressed() {
 }
 
 function drawScore() {
-    textSize(50);
+    textSize(30);
     noStroke();
     fill(255);
     text("Distance : " + score, width / 2, 50);
@@ -92,25 +92,25 @@ function endGame() {
     fill(255);
     noStroke();
 
-    textSize(100);
+    textSize(70);
     //text("Game Over", width / 2, height / 2);
 
     bgSound.stop();
     gameOverSound.play();
 
     if (score <= 500) {
-        button = createImg('img/bubble.png');
+        button = createImg('img/button.png');
         //button.position(input.x + input.width, 65);
         button.mousePressed(refreshPage);
-        button.position(width / 2, height / 2);
-        text("Play Again", width / 2, height / 2);
+        button.position(width / 1.5, height / 2);
+        text("Play Again", width / 2, height / 2.5);
         //  document.getElementById("playAgain").style.display = "block";
     } else {
-        button = createImg('img/bubble.png');
+        button = createImg('img/button.png');
         //button.position(input.x + input.width, 65);
         button.mousePressed(move);
-        button.position(width / 2, height / 2);
-        text("Continue", width / 2, height / 2);
+        button.position(width / 1.5, height / 2);
+        text("Continue", width / 2, height / 2.5);
     }
 }
 

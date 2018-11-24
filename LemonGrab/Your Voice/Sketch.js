@@ -1,12 +1,20 @@
 var bubble;
 var score;
 var obstacles = [];
-var mic;
+
+var bgSound;
+var gameOverSound;
+var img;
 
 var bubbleImg;
+var bmoImg;
 
 function preload() {
-    bubbleImg = loadImage('img/bubble.png')
+    bubbleImg = loadImage('img/bubble.png');
+    bmoImg = loadImage('img/bmo.jpg');
+
+    bgSound = loadSound('sound/gum.mp3');
+    gameOverSound = loadSound('sound/gameover.mp3');
 }
 
 function setup() {
@@ -18,7 +26,9 @@ function setup() {
     score = 0;
 
     bubble = new Bubble(bubbleImg);
-    obstacles.push(new Obstacle());
+    obstacles.push(new Obstacle(bmoImg));
+
+    bgSound.play();
 }
 
 function draw() {
@@ -28,12 +38,12 @@ function draw() {
     var vol = mic.getLevel();
 
     for (var i = obstacles.length - 1; i >= 0; i--) {
-        obstacles[i].show();
+        obstacles[i].draw();
         obstacles[i].update();
 
         if (obstacles[i].hits(bubble)) {
             endGame();
-        }else{
+        } else {
             score++;
         }
 
@@ -44,11 +54,12 @@ function draw() {
 
     bubble.update();
     bubble.draw();
+    //obstacles.draw();
 
     //var r = random(100, 200);
 
     if (frameCount % 100 == 0) {
-        obstacles.push(new Obstacle());
+        obstacles.push(new Obstacle(bmoImg));
     }
 
     if (vol > 0.2) {
@@ -71,7 +82,7 @@ function drawScore() {
     textSize(50);
     noStroke();
     fill(255);
-    text("Score : " + score, width / 2, 50);
+    text("Distance : " + score, width / 2, 50);
 }
 
 function endGame() {
@@ -83,19 +94,22 @@ function endGame() {
 
     textSize(100);
     //text("Game Over", width / 2, height / 2);
-    if(score<=500){
+
+    bgSound.stop();
+    gameOverSound.play();
+
+    if (score <= 500) {
         button = createImg('img/bubble.png');
         //button.position(input.x + input.width, 65);
         button.mousePressed(refreshPage);
-        button.position(width/2, height/2);
+        button.position(width / 2, height / 2);
         text("Play Again", width / 2, height / 2);
-      //  document.getElementById("playAgain").style.display = "block";
-    }
-    else{
+        //  document.getElementById("playAgain").style.display = "block";
+    } else {
         button = createImg('img/bubble.png');
         //button.position(input.x + input.width, 65);
         button.mousePressed(move);
-        button.position(width/2, height/2);
+        button.position(width / 2, height / 2);
         text("Continue", width / 2, height / 2);
     }
 }
@@ -105,6 +119,6 @@ function refreshPage() {
     window.location.reload();
 }
 
-function move(){
-    window.location.href='https://quynhhgoogoo.github.io/Bubble-Lemon/LemonGrab/Pop It Out/'
+function move() {
+    window.location.href = 'https://quynhhgoogoo.github.io/Bubble-Lemon/Bubble/Pop It Out'
 }

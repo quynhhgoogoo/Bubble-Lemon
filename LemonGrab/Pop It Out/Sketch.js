@@ -32,7 +32,7 @@ function draw() {
     background(bg);
 
     if (frameCount % 20 == 0) {
-        if (random() > 0.7) {
+        if (random() > 0.8) {
             blocks.push(new Block(random(width / 2) + width / 4, random(10), random(40) + 30));
         }
         if (random() > 0.5) {
@@ -111,7 +111,7 @@ function endGame() {
         //button.position(input.x + input.width, 65);
         button.mousePressed(refreshPage);
         button.position(width / 2, height / 2);
-        text("Game Over", width / 2, height / 2);
+        text("Play Again", width / 2, height / 2);
         //  document.getElementById("playAgain").style.display = "block";
     } else {
         button = createImg('img/bmo.png');
@@ -128,8 +128,5 @@ function refreshPage() {
 }
 
 function move() {
-    window.location.href = 'https://quynhhgoogoo.github.io/Bubble-Lemon/LemonGrab/Movement/'
+    window.location.href = 'https://quynhhgoogoo.github.io/Bubble-Lemon/Bubble/Movement'
 }
-/*function randomCol() {
-    return color(random(255), random(255), random(255));
-}*/
