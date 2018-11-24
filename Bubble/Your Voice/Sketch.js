@@ -98,19 +98,18 @@ function endGame() {
     bgSound.stop();
     gameOverSound.play();
 
-    if(score<=500){
+    if (score <= 500) {
         button = createImg('img/bubble.png');
         //button.position(input.x + input.width, 65);
         button.mousePressed(refreshPage);
-        button.position(width/2, height/2);
+        button.position(width / 2, height / 2);
         text("Play Again", width / 2, height / 2);
-      //  document.getElementById("playAgain").style.display = "block";
-    }
-    else{
+        //  document.getElementById("playAgain").style.display = "block";
+    } else {
         button = createImg('img/bubble.png');
         //button.position(input.x + input.width, 65);
         button.mousePressed(move);
-        button.position(width/2, height/2);
+        button.position(width / 2, height / 2);
         text("Continue", width / 2, height / 2);
     }
 }
@@ -120,6 +119,6 @@ function refreshPage() {
     window.location.reload();
 }
 
-function move(){
-    window.location.href='https://quynhhgoogoo.github.io/Bubble-Fire/Bubble/Pop It Out'
+function move() {
+    window.location.href = 'https://quynhhgoogoo.github.io/Bubble-Lemon/Bubble/Pop It Out'
 }
