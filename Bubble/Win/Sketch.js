@@ -7,7 +7,7 @@ function preload() {
 }
 
 function setup() {
-    bg = loadImage("theme/candy.jpg");
+    bg = loadImage("theme/Candy.jpg");
     createCanvas(windowWidth, windowHeight);
     textAlign(CENTER);
 }
