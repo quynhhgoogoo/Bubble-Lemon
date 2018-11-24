@@ -121,5 +121,5 @@ function refreshPage() {
 }
 
 function move() {
-    window.location.href = 'https://quynhhgoogoo.github.io/Bubble-Lemon/Bubble/Pop It Out'
+    window.location.href = 'https://quynhhgoogoo.github.io/Bubble-Lemon/LemonGrab/Pop It Out'
 }
