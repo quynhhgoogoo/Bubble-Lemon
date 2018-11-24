@@ -106,21 +106,20 @@ function endGame() {
 
     textSize(100);
     //text("Game Over", width / 2, height / 2);
-    if(score<=5){
+    if (score <= 5) {
         button = createImg('img/bmo.png');
         //button.position(input.x + input.width, 65);
         button.mousePressed(refreshPage);
-        button.position(width/2, height/2);
+        button.position(width / 2, height / 2);
         text("Play Again", width / 2, height / 2);
-      //  document.getElementById("playAgain").style.display = "block";
-    }
-    else{
+        //  document.getElementById("playAgain").style.display = "block";
+    } else {
         button = createImg('img/bmo.png');
         //button.position(input.x + input.width, 65);
         button.mousePressed(move);
-        button.position(width/2, height/2);
+        button.position(width / 2, height / 2);
         text("Continue", width / 2, height / 2);
-      //  document.getElementById("move").style.display = "block";
+        //  document.getElementById("move").style.display = "block";
     }
 }
 
@@ -128,6 +127,6 @@ function refreshPage() {
     window.location.reload();
 }
 
-function move(){
-    window.location.href='https://quynhhgoogoo.github.io/Bubble-Fire/Bubble/Your Voice'
+function move() {
+    window.location.href = 'https://quynhhgoogoo.github.io/Bubble-Lemon/Bubble/Your Voice'
 }

@@ -157,21 +157,14 @@ function scoreRender() {
     scoreContainer.innerHTML = "<img src=" + img + ">";
     if (scorePer > 5) {
         scoreContainer.innerHTML = "<p>You are Buble Gum princess</p>";
-        setTimeout(function move(){
-        window.location.href='https://quynhhgoogoo.github.io/Bubble-Fire/Bubble/Your Voice'
+        setTimeout(function move() {
+            window.location.href = 'https://quynhhgoogoo.github.io/Bubble-Lemon/Bubble/Your Voice'
         }, 2000);
-    } 
-    else {
+    } else {
         scoreContainer.innerHTML = "<p>You are Lemon Grab</p>";
-        setTimeout(function move(){
-        window.location.href='https://quynhhgoogoo.github.io/Bubble-Fire/LemonGrab/Your Voice'
+        setTimeout(function move() {
+            window.location.href = 'https://quynhhgoogoo.github.io/Bubble-Lemon/LemonGrab/Your Voice'
         }, 2000);
     }
-    
+
 }
-
-/*button.addEventListener("click", buttonOn);
-
-function buttonOn() {
-    window.location.href = 'https://quynhhgoogoo.github.io/Jake-the-Snake/';
-}*/
