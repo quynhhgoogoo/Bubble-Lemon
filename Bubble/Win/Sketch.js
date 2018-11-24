@@ -2,7 +2,7 @@ var bgImg;
 var mySound;
 
 function preload() {
-    bgImg = loadImage('theme/candy.jpg');
+    bgImg = loadImage('theme/Candy.jpg');
     mySound = loadSound('sound/trumpet.mp3');
 }
 
