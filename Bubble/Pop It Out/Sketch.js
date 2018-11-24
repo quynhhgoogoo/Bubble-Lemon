@@ -32,7 +32,7 @@ function draw() {
     background(bg);
 
     if (frameCount % 20 == 0) {
-        if (random() > 0.7) {
+        if (random() > 0.8) {
             blocks.push(new Block(random(width / 2) + width / 4, random(10), random(40) + 30));
         }
         if (random() > 0.5) {
