@@ -75,7 +75,6 @@ function mousePressed() {
         if (blocks[i].isClicked(mouseX, mouseY)) {
             Badmp3.play();
             blocks.splice(i, 1);
-            score--;
         }
     }
 
