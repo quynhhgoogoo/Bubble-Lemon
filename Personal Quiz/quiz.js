@@ -32,6 +32,78 @@ let questions = [{
     bubble: "A",
     lemon: "C",
     norm: "B"
+}, {
+    question: "If you are a candy, you would describe yourself as ?",
+    imgSrc: "img/quiz3.png",
+    choiceA: "Sour",
+    choiceB: "Nothing",
+    choiceC: "Sweet",
+    bubble: "C",
+    lemon: "A",
+    norm: "B"
+}, {
+    question: "What would you do in a traffic jam ?",
+    imgSrc: "img/quiz4.png",
+    choiceA: "Trying to push and squeeze other commuters more forwards",
+    choiceB: "Playing your fav song max volume and wait traffic over",
+    choiceC: "Do nothing but feel super annoyed for the whole day",
+    bubble: "B",
+    lemon: "A",
+    norm: "C"
+}, {
+    question: "What would you do if you realize you only have 1 day to live ?",
+    imgSrc: "img/quiz5.png",
+    choiceA: "Kiss my beloved people and tell them that I love them",
+    choiceB: "Jump out of window. I will die anyway",
+    choiceC: "Enjoy last time for myself, do something that I did not do before",
+    bubble: "A",
+    lemon: "B",
+    norm: "C"
+}, {
+    question: "What would you do if you heard that your bff stab behind your back?",
+    imgSrc: "img/quiz1.png",
+    choiceA: "She is bitching me. I will bitch her back",
+    choiceB: "I do not believe it. I would ask her again to confirm it",
+    choiceC: "Okay I will stop this toxic relationship",
+    bubble: "B",
+    lemon: "A",
+    norm: "C"
+}, {
+    question: "All human are monster. This world is too toxic to live",
+    imgSrc: "img/quiz2.png",
+    choiceA: "Not True",
+    choiceB: "Maybe",
+    choiceC: "Exactly",
+    bubble: "A",
+    lemon: "C",
+    norm: "B"
+}, {
+    question: "People always hate me even when we have not said anything to each other",
+    imgSrc: "img/quiz3.png",
+    choiceA: "Not True",
+    choiceB: "Err.. Sometimes",
+    choiceC: "Asolutely Correct",
+    bubble: "A",
+    lemon: "C",
+    norm: "B"
+}, {
+    question: "What is your opinion about haters",
+    imgSrc: "img/quiz4.png",
+    choiceA: "I have no idea about the feeling of being hated",
+    choiceB: "I do not care. They always be in my back",
+    choiceC: "I will bitch them until they stop",
+    bubble: "A",
+    lemon: "C",
+    norm: "B"
+}, {
+    question: "Which character describes yourself most in Adventure Time ?",
+    imgSrc: "img/quiz5.png",
+    choiceA: "Bubble Gum Princess",
+    choiceB: "Earl of Lemongrab",
+    choiceC: "Finn",
+    bubble: "A",
+    lemon: "B",
+    norm: "C"
 }];
 
 //Create render variables
