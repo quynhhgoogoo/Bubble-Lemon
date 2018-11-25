@@ -98,7 +98,7 @@ function endGame() {
     bgSound.stop();
     gameOverSound.play();
 
-    if (score <= 500) {
+    if (score <= 300) {
         button = createImg('img/button.png');
         //button.position(input.x + input.width, 65);
         button.mousePressed(refreshPage);
