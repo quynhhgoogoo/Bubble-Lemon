@@ -102,7 +102,7 @@ function endGame() {
         button = createImg('img/button.png');
         //button.position(input.x + input.width, 65);
         button.mousePressed(refreshPage);
-        button.position(width / 1.5, height / 2);
+        button.position(width / 2, height / 2);
         text("Play Again", width / 2, height / 2.5);
         //  document.getElementById("playAgain").style.display = "block";
     } else {
