@@ -1,6 +1,11 @@
 # Bubble-Lemon
-bubble princess and lemon grab <br>
-Do your quiz first and the quiz will pick up a corresponding character for you
+## Debrief
+This game is written by JavaScript, HTML Canvas and p5.js library to send a mess to player and educate children about adversity
+Before playing this game, player must do a personal quiz first. The quiz will pick their corresponding character in game. There are two characters in game (inspired by our favorite cartoon Adventure Time) are Princess Bubble Gum and Lemon Grab.<br>
+Princess Bubble Gum represents for a kind of person who is beloved, respected by surrounding people, have a lot good relationships, live in a good and developed environment (Candy Kingdom)<br>
+LemonGrab is an opposite character which is unlucky, hateful and always being abandoned as well as isolated.<br>
+There are three challenges in game which represents for three basic human right of a person : movement right, freedom of expression and a right to raise your voice.  With Bubble Gum, everything is so simple and all she need to do is following rules to win while in LemonGrab case, he is struggle a lot (for instance, instead of using right arrow to move right, he will move in an opposite way, left) <br>
+These game are all acquaint to most people and easy to see their rules. So are the human rights which are somethings humanity and easy to see but how many people can realize it ? <br>
 
 ## Game Time Line
 ### LemonGrab Character
