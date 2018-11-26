@@ -1,6 +1,6 @@
 # Bubble-Lemon
 ## Debrief
-This game is written by JavaScript, HTML Canvas and p5.js library to send a mess to player and educate children about adversity
+This game is written by JavaScript, HTML Canvas and p5.js library to send a mess to player and educate children about adversity<br>
 Before playing this game, player must do a personal quiz first. The quiz will pick their corresponding character in game. There are two characters in game (inspired by our favorite cartoon Adventure Time) are Princess Bubble Gum and Lemon Grab.<br>
 Princess Bubble Gum represents for a kind of person who is beloved, respected by surrounding people, have a lot good relationships, live in a good and developed environment (Candy Kingdom)<br>
 LemonGrab is an opposite character which is unlucky, hateful and always being abandoned as well as isolated.<br>
