@@ -9,16 +9,16 @@ These game are all acquaint to most people and easy to see their rules. So are t
 
 ## Game Time Line
 ### LemonGrab Character
-<img width="632" alt="capture3" src="https://user-images.githubusercontent.com/26543302/49003632-fee44400-f16a-11e8-80bd-f07ce14625e2.PNG">
+<img width="632" alt="capture3" src="https://user-images.githubusercontent.com/26543302/49003632-fee44400-f16a-11e8-80bd-f07ce14625e2.PNG"><br>
 Game 1 : This game receives your voice frequency. The louder you say, the higher your character will move up.
 <br>
-<img width="626" alt="capture1" src="https://user-images.githubusercontent.com/26543302/49003629-fe4bad80-f16a-11e8-8849-ef37eceb0ee0.PNG">
+<img width="626" alt="capture1" src="https://user-images.githubusercontent.com/26543302/49003629-fe4bad80-f16a-11e8-8849-ef37eceb0ee0.PNG"><br>
 Game 2 : There are two types of block on screen, good things and bad things. Bad things will give you a penalty but if you skip it you will be lose. You have to find out how to pop it right to achieve
 a high score enough to move to next level
 <br>
-<img width="638" alt="capture" src="https://user-images.githubusercontent.com/26543302/49003628-fe4bad80-f16a-11e8-9d25-05858584c913.PNG">
-Game 3 : A typical snake game but be careful how to move. With this character given, your arrows will be toggled
-<img width="627" alt="capture2" src="https://user-images.githubusercontent.com/26543302/49003630-fe4bad80-f16a-11e8-9c49-b587d1da854f.PNG">
+<img width="638" alt="capture" src="https://user-images.githubusercontent.com/26543302/49003628-fe4bad80-f16a-11e8-9d25-05858584c913.PNG"><br>
+Game 3 : A typical snake game but be careful how to move. With this character given, your arrows will be toggled<br>
+<img width="627" alt="capture2" src="https://user-images.githubusercontent.com/26543302/49003630-fe4bad80-f16a-11e8-9c49-b587d1da854f.PNG"><br>
 
 ### Bubble Gum Princess Character
 
